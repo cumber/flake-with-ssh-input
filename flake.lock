@@ -1,0 +1,49 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1683475240,
+        "narHash": "sha256-sy6MYoCaIZsOenYplbzVXI4Ce9Bp/vIOpuFa97+a6wc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e040aab15638aaf8d0786894851a2b1ca09a7baf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "trivial": "trivial"
+      }
+    },
+    "trivial": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1683530411,
+        "narHash": "sha256-QW6iNBS0yNgRWkTLh8BTZojseO/5a2LxFITkF1rjZWA=",
+        "ref": "main",
+        "rev": "864f63c870166a65f88a683d2a40a492955a5aad",
+        "revCount": 1,
+        "type": "git",
+        "url": "ssh://git@github.com/cumber/flake-trivial.git"
+      },
+      "original": {
+        "ref": "main",
+        "type": "git",
+        "url": "ssh://git@github.com/cumber/flake-trivial.git"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
