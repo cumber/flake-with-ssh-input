@@ -29,11 +29,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1683530411,
+        "lastModified": 1683553135,
         "narHash": "sha256-QW6iNBS0yNgRWkTLh8BTZojseO/5a2LxFITkF1rjZWA=",
         "ref": "main",
-        "rev": "864f63c870166a65f88a683d2a40a492955a5aad",
-        "revCount": 1,
+        "rev": "b2379c2988eba694789577a5037dd111aa5d68a1",
+        "revCount": 2,
         "type": "git",
         "url": "ssh://git@github.com/cumber/flake-trivial.git"
       },
